@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/**
+fonts
+h3: font-family: 'Diplomata SC', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+p:  font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+**/
+
+/* .navBar div {
+    position: relative;
+} */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBar {
+        display: flex;
+        gap: 20px;       
+        list-style: none;
+        list-style-position: inside;
+        list-style-image: url("../images/light-saber.png");
+        }
+
+.navBar li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 30px;
+}
+
+.navBar li a:hover{
+    color: aqua;
+    font-size: 40px;
+}    
+
+body{
+    background-image:url(../images/fondo.jpg);
+    background-size: cover;
+    overflow: auto;
+}
+
+h3 {
+    color: whitesmoke ;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Diplomata SC', cursive;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 4px black;
+} 
+
+p {
+    text-indent: 40px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 30px; 
+    letter-spacing: 3px;
+    /* line-height: 35px; */
+} 
+
